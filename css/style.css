@@ -1039,6 +1039,33 @@ form label {
   z-index: 99;
   animation: pulse 1s ease infinite;
 }
+.pengantin{
+  
+  position: absolute;
+  top: 2em;
+  left: 0;
+  right: 0;
+  /* z-index: 99; */
+  animation: pulse 1s ease infinite;
+
+}
+/* .pengantin {
+  
+  display: none;
+
+  animation: pulse 1s ease infinite;
+  width: 10px;
+  
+
+} */
+
+@media screen and (max-width: 768px) {
+  .pengantin {
+    width: 200px;
+ display: contents;
+ animation: pulse 1s ease infinite;
+  }
+}
 .heart i {
   font-size: 20px;
   background: #fff;
@@ -1051,7 +1078,7 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .heart {
-    display: none;
+    /* display: none; */
   }
 }
 
