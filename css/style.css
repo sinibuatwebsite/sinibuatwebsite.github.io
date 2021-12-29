@@ -1670,7 +1670,20 @@ form label {
     display: block;
   }
 }
+.btnid {
 
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 20px;
+
+  border-radius: 30px;
+  padding: 8px 20px;
+  position: center;
+  background-color: transparent;
+ 
+
+ 
+
+}
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;

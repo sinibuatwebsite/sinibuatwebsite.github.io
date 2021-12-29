@@ -49,16 +49,27 @@
 	<![endif]-->
 
 	</head>
-
 	<body>
 		<!-- <iframe src="audio/silent.mp3" allow="autoplay" id="audio" style="display: none;"></iframe> -->
-
+		<!-- <div id="box">
+			<div class="id">
+				<h1>Selamat datang</h1>
+				<div class="foto">
+					<img src="/images/wed.jpg" width="100px">
+				</div>
+					<button onclick="togglePlay()">OK</button>
+				
+			</div>
+		</div> -->
+		
 		<audio id="Audio">
 			<source src="audio/song_audio.mp3" type="audio/mp3">
 		</audio>
 	<div class="fh5co-loader"></div>
 	
 	<!-- <div id="page"> -->
+
+
 	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/map-image.png);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
@@ -70,16 +81,6 @@
 							<h1>Vika &amp; Aldo</h1>
 							<p>“DEMIKIANLAH MEREKA BUKAN LAGI DUA, MELAINKAN SATU. KARENA ITU, APA YANG TELAH DIPERSATUKAN ALLAH, TIDAK BOLEH DICERAIKAN MANUSIA.”</p>
 							<p>MATIUS 19:6 </p>
-							<div id="box">
-								<div class="id">
-									
-									<div class="foto">
-										<button class="btnid" onclick="togglePlay()">Play </button>									
-
-									</div>
-								</div>
-							</div>
-
 							<!-- <p>Tuhan membuat segala sesuatu indah pada waktunya. Indah saat Dia mempertemukan, indah saat Dia menumbuhkan kasih, dan indah saat Dia mempersatukan putra – putri kami dalam suatu ikatan Pernikahan Kudus</p> -->
 							<!-- <div class="simply-countdown simply-countdown-one"></div> -->
 							<!-- <p><a href="#fh5co-event" class="btn btn-default btn-sm">Save the date</a></p> -->
@@ -297,7 +298,7 @@
 	var isPlaying = false;
 	function togglePlay(){
 		myAudio.play();
-		last = document.querySelector('#box');
+		last = document.querySelector('box');
 		last.classList.add('hide');
 	};
 </script>
